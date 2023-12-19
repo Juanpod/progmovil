@@ -26,7 +26,7 @@ class ContratoActivity : AppCompatActivity() {
             val s = sueldoBruto.text.toString().toDouble()
 
             val sueldoLiquido = EmpleadoContrato(s).calcularLiquido()
-            resultado.text = "El sueldo liqduido es ${sueldoLiquido}"
+            resultado.text = "El sueldo liquido es ${sueldoLiquido}"
 
         }
     }
